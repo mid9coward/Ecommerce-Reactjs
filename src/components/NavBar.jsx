@@ -105,7 +105,9 @@ export default function NavBar() {
                     clearCart(); // Clear cart on logout
                     localStorage.removeItem("user"); // Remove user from localStorage
                     logout({
-                      logoutParams: { returnTo: window.location.origin },
+                      logoutParams: {
+                        returnTo: import.meta.env.VITE_AUTH0_CALLBACK_URL,
+                      },
                     });
                   }}
                 >
