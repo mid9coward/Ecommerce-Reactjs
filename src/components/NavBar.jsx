@@ -106,7 +106,7 @@ export default function NavBar() {
                     localStorage.removeItem("user"); // Remove user from localStorage
                     logout({
                       logoutParams: {
-                        returnTo: import.meta.env.VITE_AUTH0_CALLBACK_URL,
+                        returnTo: window.location.origin,
                       },
                     });
                   }}

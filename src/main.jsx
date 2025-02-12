@@ -10,9 +10,9 @@ import { FilterProvider } from "./context/filter_context.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Auth0Provider
     domain={import.meta.env.VITE_AUTH0_DOMAIN}
-    clientId={import.meta.env.VITE_AUTH0_CLIENT_ID}
+    clientId={import.meta.env.VITE_AUTH0_ID}
     authorizationParams={{
-      redirect_uri: import.meta.env.VITE_AUTH0_CALLBACK_URL,
+      redirect_uri: window.location.origin,
     }}
   >
     <UserProvider>
