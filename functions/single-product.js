@@ -1,5 +1,7 @@
-require("dotenv").config();
-const Airtable = require("airtable");
+import dotenv from "dotenv";
+import Airtable from "airtable";
+
+dotenv.config();
 
 const base = new Airtable({ apiKey: process.env.AIRTABLE_ACCESS_TOKEN }).base(
   process.env.AIRTABLE_BASE_ID
