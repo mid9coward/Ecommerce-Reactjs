@@ -8,7 +8,7 @@ The project includes features such as product listing, product details, shopping
 
 ## Demo
 
-You can visit the live site at: https://watch-commerce-airtable-experiment.netlify.app/
+You can visit the live site at: https://reverie-ecommerce.netlify.app/
 
 ### Home page
 
@@ -57,8 +57,8 @@ You can visit the live site at: https://watch-commerce-airtable-experiment.netli
 ### 1. Clone this repository
 
 ```
-$ git clone https://github.com/HieuVu-dev/reverie-watch-commerce-reactjs
-$ cd reverie-watch-commerce-reactjs
+$ git clone https://github.com/mid9coward/Ecommerce-Reactjs.git
+$ cd Ecommerce-Reactjs
 ```
 
 ### 2. Set up .env
@@ -81,6 +81,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## Contact
 
-- Twitter - [@HieuVu_Dev](https://twitter.com/HieuVu_Dev)
+- Twitter - [@HieuVu](https://www.linkedin.com/in/hieupcmusic/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
