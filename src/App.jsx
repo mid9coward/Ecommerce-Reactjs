@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {
   HomePage,
   SingleProductPage,
@@ -7,13 +7,15 @@ import {
   PrivateRoute,
   CheckoutPage,
   ProductsPage,
-} from './pages';
-import { Footer, NavBar } from './components';
+} from "./pages";
+import { Footer, NavBar } from "./components";
+import DebugAuth0 from "./components/DebugAuth0";
 
 function App() {
   return (
     <div className="relative min-h-screen">
       <Router>
+        <DebugAuth0 />
         <NavBar />
         <main className="min-h-screen">
           <Routes>
