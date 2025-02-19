@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="relative section-center sm:static">
           <div className="sm:max-w-lg">
             <h1 className="text-4xl font font-extrabold tracking-tight text-gray-900 sm:text-6xl">
-              Summer
+              Summer styles are finally here
             </h1>
             <p className="mt-4 text-xl text-gray-500">
               This year, our new summer collection will shelter you from the
